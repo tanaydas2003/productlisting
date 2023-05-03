@@ -43,7 +43,7 @@
     font-size: 4rem;
     font-weight: 700;   
 }
-.carousel-item img{
+.sliding{
     height: 70vh;
 }
 
@@ -68,6 +68,26 @@ box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
 transition: 0.5s;
 }
 
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c{
+    margin: 0.5rem;
+    /* width: calc(100%/3); */
+}
+@media screen and (min-width:568px){
+    .cards-wrapper{
+        display: flex;
+    }
+}
+@media screen and (max-width:567px) {
+    .c:not(:first-child){
+        display: none;
+
+    }
+}
 /* Footer */
 .footer{
     background-color: black;
@@ -91,3 +111,5 @@ transition: 0.5s;
     cursor: pointer;
     padding-right: 8px;
 }
+  
+

@@ -52,13 +52,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/slide.png" class="d-block w-100" alt="...">
+            <img src="./assets/slide.png" class="d-block w-100 sliding" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./assets/carousel2.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/carousel2.jpg" class="d-block w-100 sliding" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./assets/carousel3.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/carousel3.jpg" class="d-block w-100 sliding" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -73,9 +73,148 @@
     </header>
 
     <!--  Trending  -->
-   
-    <section class="trending" id="trend">
-      <div class="container py-5">
+    <section class="trending" id="trend" style="background-color: #e9ecef70;">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-5 m-auto text-center ">
+            <h1>What's Trending</h1>
+          </div>
+        </div>
+      </div>
+      <div id="carouselExampleControls" class="carousel carousel-dark slide d-none d-sm-block" data-bs-ride="carousel">
+        <div class="carousel-inner in">
+          <div class="carousel-item active in1">
+            <div class="cards-wrapper">
+              <div class="card c border-2">
+                <div class="card-body">
+                  <img src="./assets/12.png" alt="" class="img-fluid">
+                </div>
+                <h6 class="text-center">Embroidery Teddy</h6>
+                <p class="text-center">ht-38cms</p>
+              </div>
+              <div class="card c border-2">
+                <div class="card-body">
+                  <img src="./assets/24p.png" alt="" class="img-fluid">
+                </div>
+                <h6 class="text-center">Embroidery Teddy</h6>
+                <p class="text-center">ht-38cms</p>
+              </div>
+              <div class="card c border-2">
+                <div class="card-body">
+                  <img src="./assets/38.png" alt="" class="img-fluid">
+                </div>
+                <h6 class="text-center">Embroidery Teddy</h6>
+                <p class="text-center">ht-38cms</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item in1">
+            <div class="cards-wrapper">
+              <div class="card c border-2">
+                <div class="card-body c1">
+                  <img src="./assets/26.png" alt="" class="img-fluid">
+                </div>
+                <h6 class="text-center">Embroidery Teddy</h6>
+                <p class="text-center">ht-38cms</p>
+              </div>
+              <div class="card c border-2">
+                <div class="card-body">
+                  <img src="./assets/4.png" alt="" class="img-fluid">
+                </div>
+                <h6 class="text-center">Cow Standing</h6>
+                <p class="text-center">ht-35cms</p>
+              </div>
+              <div class="card c border-2">
+                <div class="card-body">
+                  <img src="./assets/5.png" alt="" class="img-fluid">
+                </div>
+                <h6 class="text-center">Embroidery Teddy</h6>
+                <p class="text-center">ht-38cms</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- duplicate -->
+
+      <div id="carouselExampleControlsSmallScreen" class="carousel carousel-dark slide d-sm-none" data-bs-ride="carousel">
+        <div class="carousel-inner in cent">
+          <div class="carousel-item active in1">
+            <div class="card c border-2">
+              <div class="card-body">
+                <center><img src="./assets/12.png" alt="" class="img-fluid"></center>
+              </div>
+              <h6 class="text-center">Embroidery Teddy</h6>
+              <p class="text-center">ht-38cms</p>
+            </div>
+          </div>
+          <div class="carousel-item in1">
+            <div class="card c border-2">
+              <div class="card-body">
+                <center><img src="./assets/24p.png" alt="" class="img-fluid"></center>
+              </div>
+              <h6 class="text-center">Embroidery Teddy</h6>
+              <p class="text-center">ht-38cms</p>
+            </div>
+          </div>
+          <div class="carousel-item in1">
+            <div class="card c border-2">
+              <div class="card-body">
+                <center><img src="./assets/38.png" alt="" class="img-fluid"></center>
+              </div>
+              <h6 class="text-center">Embroidery Teddy</h6>
+              <p class="text-center">ht-38cms</p>
+            </div>
+          </div>
+          <div class="carousel-item in1">
+            <div class="card c border-2">
+              <div class="card-body c1">
+                <center><img src="./assets/26.png" alt="" class="img-fluid"></center>
+              </div>
+              <h6 class="text-center">Embroidery Teddy</h6>
+              <p class="text-center">ht-38cms</p>
+            </div>
+          </div>
+          <div class="carousel-item in1">
+            <div class="card c border-2">
+              <div class="card-body c1">
+              <center><img src="./assets/4.png" alt="" class="img-fluid"></center>
+              </div>
+              <h6 class="text-center">Cow Standing</h6>
+              <p class="text-center">ht-35cms</p>
+            </div>
+          </div>
+          <div class="carousel-item in1">
+            <div class="card c border-2">
+              <div class="card-body c1">
+              <center><img src="./assets/5.png" alt="" class="img-fluid"></center>
+              </div>
+              <h6 class="text-center">Embroidery Teddy</h6>
+              <p class="text-center">ht-38cms</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsSmallScreen" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsSmallScreen" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- <section class="trending" id="trend" style="background-color: #e9ecef70;">
+      <div class="container">
         <div class="row py-5">
           <div class="col-lg-5 m-auto text-center ">
             <h1>What's Trending</h1>
@@ -83,36 +222,36 @@
         </div>
         <div class="row">
           <div class="col-lg-3 text-center pb-3 col-md-6 col-sm-6">
-            <div class="card border-0 bg-light ">
+            <div class="card border-2">
               <div class="card-body">
-                <img src="./assets/12.png" alt="" class="img-fluid"> <!-- size 250*350-->
+                <img src="./assets/12.png" alt="" class="img-fluid">
               </div>
               <h6>Embroidery Teddy</h6>
               <p>ht-38cms</p>
             </div>
           </div>
           <div class="col-lg-3 text-center pb-3 col-md-6 col-sm-6">
-            <div class="card border-0 bg-light ">
+            <div class="card border-2">
               <div class="card-body">
-                <img src="./assets/24p.png" alt="" class="img-fluid"> <!-- size 250*350-->
+                <img src="./assets/24p.png" alt="" class="img-fluid">
               </div>
               <h6>Embroidery Teddy</h6>
               <p>ht-38cms</p>
             </div>
           </div>
           <div class="col-lg-3 text-center pb-3 col-md-6 col-sm-6">
-            <div class="card border-0 bg-light ">
+            <div class="card border-2">
               <div class="card-body">
-                <img src="./assets/38.png" alt="" class="img-fluid"> <!-- size 250*350-->
+                <img src="./assets/38.png" alt="" class="img-fluid">
               </div>
               <h6>Embroidery Teddy</h6>
               <p>ht-38cms</p>
             </div>
           </div>
           <div class="col-lg-3 text-center pb-3 col-md-6 col-sm-6">
-            <div class="card border-0 bg-light ">
+            <div class="card border-2">
               <div class="card-body">
-                <img src="./assets/41.png" alt="" class="img-fluid"> <!-- size 250*350-->
+                <img src="./assets/26.png" alt="" class="img-fluid">
               </div>
               <h6>Embroidery Teddy</h6>
               <p>ht-38cms</p>
@@ -120,7 +259,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Collection Store-->
 
@@ -180,7 +319,8 @@
     <!-- Contact Section -->
    
     <section class="contact pt-3 text-center" id="contact">
-      <div class="imageback" style="background-image:url('./assets/carolinie-cavalli-Qw3w0oBH63s-unsplash.jpg');">
+      <!-- <div class="imageback" style="background-image:url('./assets/carolinie-cavalli-Qw3w0oBH63s-unsplash.jpg');"> -->
+        <div class="imageback" style="background: linear-gradient(90deg, rgba(189,241,255,1) 0%, rgba(241,241,241,1) 67%, rgba(253,195,255,1) 100%);">
         <div class="text-center">
             <h1>Contact Us</h1>
             <h5 style="color: red;">Always Be In Touch With Us</h5>
@@ -261,5 +401,6 @@
       </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
   </body>
 </html>
