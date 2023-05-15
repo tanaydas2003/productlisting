@@ -44,9 +44,9 @@
     font-size: 4rem;
     font-weight: 700;   
 }
-.sliding{
+/* .sliding{
     height: 70vh;
-}
+} */
 
 /* Trending */
 h1{
@@ -89,6 +89,38 @@ transition: 0.5s;
     .c:not(:first-child){
         display: none;
 
+    }
+}
+
+ /* COLLECTION */
+
+.coll{
+    border-radius: 8px;
+    height: 350px;
+}
+/* .collect{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+} */
+.bottom{
+    float: right;
+    padding-right: 10px;
+}
+.bt{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+@media screen and (max-width:567px) {
+    .bt{
+        margin-right: 10px;
+        font-size: 13px;
     }
 }
 /* Footer */
