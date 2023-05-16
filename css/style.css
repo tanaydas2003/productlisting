@@ -98,12 +98,39 @@ transition: 0.5s;
     border-radius: 8px;
     height: 350px;
 }
+  
 /* .collect{
     display: flex;
     
     align-items: center;
     justify-content: center;
 } */
+
+ /* 3 div */
+
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: #f3f4f6;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+@media screen and (max-width:567px) {
+    .box{
+        margin-bottom: 20px;
+    }
+    .box1{
+        margin-top: 10px;
+    }
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    background: url(../assets/3slides.jpg);
+}
 .bottom{
     float: right;
     padding-right: 10px;
@@ -116,6 +143,7 @@ transition: 0.5s;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 @media screen and (max-width:567px) {
     .bt{
